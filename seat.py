@@ -1,0 +1,40 @@
+path.left(90)
+    path.forward(50)
+    path.right(90)
+    path.forward(200)
+    path.right(90)
+    path.forward(50)
+    path.left(90)
+    path.forward(50)
+    path.right(90)
+    path.forward(200)
+    path.right(90)
+    path.forward(300)   
+    path.right(90)
+    path.forward(200)   
+    path.right(90)
+    path.forward(100)   
+    path.right(90)
+    path.forward(100)   
+    path.left(90)
+    path.forward(100) 
+    path.left(90)
+    path.forward(100) 
+    path.right(90)
+    path.forward(50) 
+    theScreen.mainloop()
+
+
+
+
+
+
+theScreen = turtle.TurtleScreen(self.canvas)
+        path = turtle.RawTurtle(theScreen)
+        path.hideturtle()
+        path.speed(0)
+        path.up()
+        path.goto(-10,10)
+        path.down()
+        path.begin_fill()
+
